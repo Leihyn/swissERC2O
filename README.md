@@ -1,32 +1,37 @@
-# ERC721 Token Creation Project
+Here's the edited version of your project description, tailored for an ERC20 token:
 
-This project demonstrates how to create and deploy a simple ERC721 (non-fungible token) smart contract using Hardhat, a popular Solidity development framework. The project is deployed on the Swisstronik network.
+---
+
+# ERC20 Token Creation Project
+
+This project demonstrates how to create and deploy a simple ERC20 (fungible token) smart contract using Hardhat, a popular Solidity development framework. The project is deployed on the Swisstronik network.
 
 ## Overview
 
-The ERC721 standard is widely used for creating unique digital assets (NFTs). This project sets up a basic ERC721 token with customizable metadata and deployment scripts. You can use this as a starting point for creating your own NFTs or expanding the functionality to suit more complex use cases.
+The ERC20 standard is widely used for creating fungible digital assets, such as cryptocurrencies or tokens that can represent a specific value. This project sets up a basic ERC20 token with customizable parameters and deployment scripts. You can use this as a starting point for creating your own tokens or expanding the functionality to suit more complex use cases.
 
 ## Features
 
-- ERC721 Standard : Implements the ERC721 standard with minting functionality.
-- Custom Metadata : Supports setting token URIs for metadata.
-- Deployment : Scripts for deploying the contract to the Swisstronik network.
-- Testing : Basic tests for the ERC721 functionality using Hardhat.
+- **ERC20 Standard**: Implements the ERC20 standard with minting and transfer functionality.
+- **Custom Parameters**: Supports setting token name, symbol, and initial supply.
+- **Deployment**: Scripts for deploying the contract to the Swisstronik network.
+- **Testing**: Basic tests for the ERC20 functionality using Hardhat.
 
 ## Prerequisites
 
-- Node.js : Ensure you have Node.js installed (>= 14.x).
-- npm or yarn : Package manager for installing dependencies.
-- Hardhat : A development environment for Ethereum smart contracts.
-- Swisstronik Network : Access to the Swisstronik network for deployment.
+- **Node.js**: Ensure you have Node.js installed (>= 14.x).
+- **npm or yarn**: Package manager for installing dependencies.
+- **Hardhat**: A development environment for Ethereum smart contracts.
+- **Swisstronik Network**: Access to the Swisstronik network for deployment.
 
 ## Getting Started
 Here is the main guide: https://swisstronik.gitbook.io/swisstronik-docs/development/guides/contract-deployment-hardhat/
+
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Leihyn/swissERC721.git 
-cd erc721-token-swisstronik
+git clone https://github.com/Leihyn/swissERC20.git 
+cd erc20-token-swisstronik
 ```
 
 ### 2. Install dependencies
@@ -41,7 +46,7 @@ yarn install
 
 In the `hardhat.config.js` file, configure the Swisstronik network settings:
 
-USE A DEMO ACCOUNT; an account you can afford to lose
+**USE A DEMO ACCOUNT**; an account you can afford to lose.
 
 ```javascript
 module.exports = {
@@ -53,8 +58,6 @@ module.exports = {
     },
   },
 };
-
-
 ```
 
 ### 4. Compile the contract
@@ -77,15 +80,19 @@ npx hardhat test
 
 ## Project Structure
 
-- contracts/: Contains the ERC721 smart contract.
-- scripts/: Deployment scripts.
-- test/: Test files for the ERC721 contract.
-- hardhat.config.js: Hardhat configuration file.
+- `contracts/`: Contains the ERC20 smart contract.
+- `scripts/`: Deployment scripts.
+- `test/`: Test files for the ERC20 contract.
+- `hardhat.config.js`: Hardhat configuration file.
 
 ## Customization
 
-- Token Name and Symbol: Modify the name and symbol of the token in the ERC721 contract.
+- **Token Name, Symbol, and Supply**: Modify the name, symbol, and initial supply of the token in the ERC20 contract.
 
 ## Deployment
 
-After configuring the network and writing your contract, you can deploy it using the deployment script. The script will push the contract to the Swisstronik network, and you'll receive a contract address upon success
+After configuring the network and writing your contract, you can deploy it using the deployment script. The script will push the contract to the Swisstronik network, and you'll receive a contract address upon success.
+
+---
+
+This version is tailored for an ERC20 token project and includes the necessary adjustments.
