@@ -1,6 +1,4 @@
-Here's the edited version of your project description, tailored for an ERC20 token:
 
----
 
 # ERC20 Token Creation Project
 
@@ -12,17 +10,17 @@ The ERC20 standard is widely used for creating fungible digital assets, such as 
 
 ## Features
 
-- **ERC20 Standard**: Implements the ERC20 standard with minting and transfer functionality.
-- **Custom Parameters**: Supports setting token name, symbol, and initial supply.
-- **Deployment**: Scripts for deploying the contract to the Swisstronik network.
-- **Testing**: Basic tests for the ERC20 functionality using Hardhat.
+- ERC20 Standard : Implements the ERC20 standard with minting and transfer functionality.
+- Custom Parameters : Supports setting token name, symbol, and initial supply.
+- Deployment : Scripts for deploying the contract to the Swisstronik network.
+- Testing : Basic tests for the ERC20 functionality using Hardhat.
 
 ## Prerequisites
 
-- **Node.js**: Ensure you have Node.js installed (>= 14.x).
-- **npm or yarn**: Package manager for installing dependencies.
-- **Hardhat**: A development environment for Ethereum smart contracts.
-- **Swisstronik Network**: Access to the Swisstronik network for deployment.
+- Node.js: Ensure you have Node.js installed (>= 14.x).
+- npm or yarn: Package manager for installing dependencies.
+- Hardhat: A development environment for Ethereum smart contracts.
+- Swisstronik Network: Access to the Swisstronik network for deployment.
 
 ## Getting Started
 Here is the main guide: https://swisstronik.gitbook.io/swisstronik-docs/development/guides/contract-deployment-hardhat/
@@ -46,7 +44,7 @@ yarn install
 
 In the `hardhat.config.js` file, configure the Swisstronik network settings:
 
-**USE A DEMO ACCOUNT**; an account you can afford to lose.
+USE A DEMO ACCOUNT; an account you can afford to lose.
 
 ```javascript
 module.exports = {
@@ -87,7 +85,7 @@ npx hardhat test
 
 ## Customization
 
-- **Token Name, Symbol, and Supply**: Modify the name, symbol, and initial supply of the token in the ERC20 contract.
+- Token Name, Symbol, and Supply: Modify the name, symbol, and initial supply of the token in the ERC20 contract.
 
 ## Deployment
 
